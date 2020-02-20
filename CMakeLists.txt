@@ -7,3 +7,6 @@ FILE(GLOB MyCSources mylib/*.c)
 
 # folder name: sorting
 add_executable(test_bubble_sort sorting/test_bubble_sort.c ${MyCSources})
+
+# folder name: temp
+add_executable(loop temp/loop.c ${MyCSources})
