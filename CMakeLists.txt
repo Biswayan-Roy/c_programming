@@ -9,4 +9,4 @@ FILE(GLOB MyCSources mylib/*.c)
 add_executable(test_bubble_sort sorting/test_bubble_sort.c ${MyCSources})
 
 # folder name: temp
-add_executable(loop temp/loop.c ${MyCSources})
+add_executable(loop temp_code/loop.c ${MyCSources})
