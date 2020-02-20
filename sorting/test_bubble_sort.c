@@ -2,7 +2,7 @@
 #include "../mylib/sort.h"
 
 int main(void) {
-    // test git
+    // test git2
     printf("Hello, World!\n");
     int a[] = {1, 2, 3};
 
