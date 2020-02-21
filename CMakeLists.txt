@@ -6,7 +6,7 @@ set(CMAKE_C_STANDARD 99)
 FILE(GLOB MyCSources mylib/*.c)
 
 # folder name: sorting
-add_executable(test_bubble_sort sorting/test_bubble_sort.c ${MyCSources})
+add_executable(test_insertion_sort sorting/test_insertion_sort.c ${MyCSources})
 
 # folder name: temp
 add_executable(loop temp_code/loop.c ${MyCSources})
